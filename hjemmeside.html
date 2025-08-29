@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<div class="container">
+<h2 class="section-title">Erfaring</h2>
+<div class="timeline">
+<div class="item">
+<div>
+<strong>Softwareudvikler – Freelance</strong>
+<span class="muted">Webapps, integrationer og rådgivning</span>
+</div>
+<div class="when">2023 – nu</div>
+</div>
+<div class="item">
+<div>
+<strong>Full‑stack udvikler – Eksempel A/S</strong>
+<span class="muted">Byggede interne værktøjer og API'er</span>
+</div>
+<div class="when">2021 – 2023</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- ======= Uddannelse ======= -->
+<section id="uddannelse">
+<div class="container">
+<h2 class="section-title">Uddannelse & Certificering</h2>
+<div class="timeline">
+<div class="item">
+<div>
+<strong>Diplom/Bachelor i Softwareudvikling</strong>
+<span class="muted">Teknisk Universitet – fokus på systemdesign</span>
+</div>
+<div class="when">År – År</div>
+</div>
+<div class="item">
+<div>
+<strong>Certifikater</strong>
+<span class="muted">Azure / AWS Fundamentals, Docker, Git</span>
+</div>
+<div class="when">Løbende</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- ======= Kontakt ======= -->
+<section id="kontakt">
+<div class="container">
+<h2 class="section-title">Kontakt</h2>
+<p class="muted">Brug formularen eller skriv direkte på <a href="mailto:oliver@example.com">oliver@example.com</a>. Jeg vender hurtigt tilbage.</p>
+<form action="mailto:oliver@example.com" method="post" enctype="text/plain">
+<div class="grid-2">
+<input name="navn" placeholder="Dit navn" required />
+<input type="email" name="email" placeholder="Din e‑mail" required />
+</div>
+<input name="emne" placeholder="Emne" />
+<textarea name="besked" placeholder="Skriv din besked…" required></textarea>
+<button class="btn primary" type="submit">Send besked</button>
+</form>
+</div>
+</section>
+</main>
+
+
+<footer>
+<div class="container">
+© <span id="year"></span> Oliver Løbel • Bygget med ren HTML & CSS
+</div>
+</footer>
+
+
+<script>
+// Kun til årstallet i footer – ingen frameworks
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
